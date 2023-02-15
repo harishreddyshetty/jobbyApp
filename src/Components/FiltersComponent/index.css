@@ -1,0 +1,16 @@
+.unordered-list {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.list-items {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.filter-heading {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}

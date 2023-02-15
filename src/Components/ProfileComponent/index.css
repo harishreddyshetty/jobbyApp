@@ -1,0 +1,36 @@
+.profile-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.profile-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-failure {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.username {
+  color: #6366f1;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.bio {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+}

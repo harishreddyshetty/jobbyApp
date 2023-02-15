@@ -1,0 +1,54 @@
+.similar-job-list-item {
+  background-color: #272727;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  width: 350px;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+}
+.similar-jobs-description {
+  font-size: 20px;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.title {
+  color: white;
+}
+
+.desc {
+  color: white;
+}
+
+.similar-jobs-description {
+  color: white;
+}
+.location-container {
+  color: white;
+}
+
+.location-icon {
+  margin-right: 5px;
+}
+
+.employment-type {
+  color: white;
+}

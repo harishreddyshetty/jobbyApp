@@ -1,0 +1,109 @@
+.job-details-page {
+  background-color: #272727;
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 60%;
+}
+
+.jobDetails-bg {
+  background-color: black;
+  min-height: 100vh;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-list-item {
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+  width: 200px;
+  margin-bottom: 60px;
+}
+
+.skill-logo {
+  margin-right: 20px;
+  width: 50px;
+}
+
+.life-at-company-section {
+  display: flex;
+}
+
+.description-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description-heading {
+  color: white;
+  font-size: 25px;
+}
+
+.visit-text {
+  color: #4f46e5;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link-icon {
+  font-size: 13px;
+  color: #4f46e5;
+}
+
+.job-details-description {
+  color: white;
+}
+
+.sub-heading {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.skills-name-text {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+.similar-jobs-list {
+  width: 60%;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 0px;
+}
+
+.life-at-company-details {
+  color: white;
+  width: 550px;
+  margin-right: 30px;
+}
+
+.similar-jobs-heading {
+  color: white;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.similar-jobs-list {
+  width: 60%;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 0px;
+}

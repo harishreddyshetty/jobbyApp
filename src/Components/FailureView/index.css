@@ -1,0 +1,27 @@
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  min-width: 80vw;
+}
+.failure-Img {
+  width: 450px;
+}
+
+.failure-heading {
+  color: white;
+}
+.failure-description {
+  color: white;
+}
+.retry-btn {
+  background-color: #6366f1;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+}

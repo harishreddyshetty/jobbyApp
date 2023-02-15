@@ -1,0 +1,70 @@
+.job-details-card {
+  background-color: #272727;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 800px;
+}
+.logo-title-section {
+  display: flex;
+  align-items: center;
+}
+
+.job-title {
+  color: white;
+  font-size: 18px;
+}
+.job-rating {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.star {
+  margin-right: 5px;
+  color: #fbbf24;
+  font-size: 20px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.job-details-container {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.location-icon {
+  margin-right: 3px;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.internship-container {
+  display: flex;
+  align-items: center;
+}
+
+.income {
+  margin-left: auto;
+}
+
+.remove-underline {
+  text-decoration: none;
+}
+
+.job-description {
+  color: white;
+}
+
+.horizontal-line {
+  color: white;
+}

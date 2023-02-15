@@ -1,0 +1,11 @@
+.jobs-lists-container {
+  list-style-type: none;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 70vw;
+}
