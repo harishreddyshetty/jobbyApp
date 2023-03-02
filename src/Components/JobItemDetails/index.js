@@ -167,10 +167,13 @@ class JobItemDetails extends Component {
             <p className="life-at-company-details">
               {lifeAtCompany.description}
             </p>
-            <img alt="life at company" src={lifeAtCompany.imageUrl} />
+            <img
+              className="life-at-company"
+              alt="life at company"
+              src={lifeAtCompany.imageUrl}
+            />
           </div>
         </div>
-
         {this.renderSimilarJobs()}
       </div>
     )

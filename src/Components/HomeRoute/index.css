@@ -1,14 +1,18 @@
 .home-route-page {
   background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
   background-size: cover;
-  background-position: start;
-
   height: 100vh;
+  min-width: 360px;
 }
 
 .home-page-heading {
   color: white;
-  font-size: 70px;
+  font-size: 55px;
+}
+@media screen and (max-width: 767px) {
+  .home-page-heading {
+    font-size: 30px;
+  }
 }
 .home-page-section {
   padding: 25px;
@@ -16,7 +20,16 @@
 
 .home-page-description {
   color: white;
-  font-size: 23px;
+  font-size: 20px;
+  width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-page-description {
+    font-size: 15px;
+    line-height: 25px;
+    width: 300px;
+  }
 }
 
 .findJobs-btn {

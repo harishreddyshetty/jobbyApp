@@ -3,9 +3,17 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 250px;
+  flex-grow: 1;
+  flex-shrink: 1;
   padding: 15px;
   border-radius: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-bg {
+    width: 300px;
+    max-width: 700px;
+  }
 }
 
 .profile-loader-container {

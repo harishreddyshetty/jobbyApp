@@ -1,6 +1,8 @@
 .jobs-route-bg {
   background-color: black;
   min-height: 100vh;
+  max-width: 100vw;
+  min-width: 360px;
 }
 .jobs-route-section {
   padding: 10px;
@@ -15,6 +17,14 @@
 
 .jobs-page-container {
   display: flex;
+  min-width: 100vw;
+}
+
+@media screen and (max-width: 767px) {
+  .jobs-page-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .jobs-list-section {
@@ -27,6 +37,12 @@
 
 .jobs-lists-container {
   list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  .jobs-lists-container {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
 }
 
 .loader-container {
@@ -53,6 +69,36 @@
   height: 35px;
   width: 350px;
   padding-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .searchContainer-sm {
+    border: 1px solid #475569;
+    padding-left: 0px;
+    border-radius: 3px;
+    padding: 0px;
+    margin-left: 0px;
+    width: 290px;
+    margin-bottom: 20px;
+  }
+  .search-input-element-sm {
+    width: 238px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 0px none;
+    height: 35px;
+    padding-left: 5px;
+  }
+  .searchContainer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .searchContainer-sm {
+    display: none;
+  }
 }
 
 .search-btn {

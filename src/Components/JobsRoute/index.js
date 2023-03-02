@@ -203,6 +203,23 @@ class JobsRoute extends Component {
           <div className="jobs-route-section">
             {/* left side section */}
             <div className="leftSide-banner-section">
+              <div className="searchContainer-sm">
+                <input
+                  className="search-input-element-sm"
+                  value={searchInput}
+                  onChange={this.updateSearch}
+                  placeholder="search"
+                  type="search"
+                />
+                <button
+                  className="search-btn"
+                  onClick={this.SearchJobs}
+                  type="button"
+                  data-testid="searchButton"
+                >
+                  <BsSearch className="search-icon" />
+                </button>
+              </div>
               <ProfileComponent />
               <FiltersComponent
                 employmentData={employmentTypesList}

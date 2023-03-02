@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 360px;
 }
 
 .login-container {
@@ -20,10 +21,24 @@
   border-radius: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .login-container {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .login-container {
+    max-width: 500px;
+  }
+}
+
 .user-inputs-form {
   display: flex;
   flex-direction: column;
   width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .websiteLogo {
@@ -49,6 +64,15 @@
   outline: none;
   margin-bottom: 15px;
   color: #64748b;
+}
+
+@media screen and (max-width: 767px) {
+  .input-element {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) {
 }
 
 .login-btn {

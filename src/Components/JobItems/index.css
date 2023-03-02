@@ -5,7 +5,23 @@
   margin-left: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
-  width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-card {
+    max-width: 80%;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .job-details-card {
+    margin-left: 0px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 20px;
+  }
 }
 .logo-title-section {
   display: flex;
